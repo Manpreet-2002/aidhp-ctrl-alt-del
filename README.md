@@ -108,6 +108,10 @@ We bridge this gap by decoding personal financial behaviors—**spending pattern
 4. Set up environment variables:
    - Copy `.env.example` to `.env` (if available)
    - Configure your environment variables in `.env`
+   - Get an API key from [OpenRouter](https://openrouter.ai/deepseek/deepseek-chat-v3-0324:free) and add it to `.env`:
+     ```
+     OPENROUTER_API_KEY=your_api_key_here
+     ```
 
 5. Run the backend server:
    ```sh
