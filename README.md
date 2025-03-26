@@ -14,7 +14,9 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+Our project addresses the inefficiency of generic financial advice by **leveraging Gen AI** to deliver tailored credit card and insurance recommendations. By analyzing user transactions, spending habits, and demographic profiles, we solve the problem of one-size-fits-all suggestions, empowering users with choices aligned with their unique financial needs.
+
+---
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,16 +26,57 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+Traditional financial recommendations often ignore individual circumstances, leading to:
+- Irrelevant credit card perks (e.g., travel rewards for non-travelers)
+- Mismatched insurance policies (e.g., excessive coverage for low-risk users)
+
+We bridge this gap by decoding personal financial behaviors—**spending patterns**, **life stages**, and **financial goals**—to recommend products that _actually fit_.
+
+---
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+- **Analyzes** transaction history (income/expense ratios, savings trends) to infer habits
+- **Contextualizes** recommendations using demographics (age, location, occupation)
+- **Generates hyper-personalized suggestions** via `deepseek-v3-0324` model:
+  - Travel credit cards for users with frequent flight expenses
+  - Term insurance prioritization for young parents
+- **Updates in real-time** as user behavior evolves
+
+---
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+### Frontend
+- **React** dynamic UI with interactive dashboards
+- Visualization of recommendations via charts (e.g., spending categories)
 
-## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+### Backend
+- **Flask REST API** for data processing
+- Integration with AI model outputs
+
+### AI/ML
+- **Open Router API** to access `deepseek-v3-0324`
+- Custom prompts mapping financial data to product features (e.g., _"Suggest cards with fuel rewards if fuel spend >20%"_) 
+
+### Database
+- **SQLite** for secure storage of user profiles and transaction histories
+  
+---
+
+## 🚧 Challenges
+1. **Prompt Engineering**  
+   - Balancing transaction data, demographics, and financial logic in prompts  
+   - Example: Crafting _"Recommend travel insurance for users with >4 international trips/year"_
+
+2. **Model Integration**  
+   - Parsing unstructured AI responses into structured JSON for the frontend
+
+3. **Data Privacy**  
+   - Encrypted storage and strict access controls for financial data
+
+4. **Real-Time Processing**  
+   - Optimized latency by precomputing transaction aggregates
+
+---
 
 ## 🏃 How to Run
 1. Clone the repository  
