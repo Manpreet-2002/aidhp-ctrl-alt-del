@@ -1,5 +1,7 @@
 # 🚀 Ctrl-Alt-Del
 
+![White Text](https://via.placeholder.com/200x30/000000/ffffff?text=White+Text)
+
 ## 📌 Table of Contents
 - [Introduction](#introduction)
 - [Demo](#demo)
