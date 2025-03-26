@@ -72,6 +72,12 @@ We bridge this gap by decoding personal financial behaviors—**spending pattern
 
 4. **Real-Time Processing**  
    - Optimized latency by precomputing transaction aggregates
+     
+5. **Data Collection & Synthesis**  
+   - Generated synthetic transaction histories using **Faker** (no access to real-world financial data)  
+   - Simulated realistic spending patterns (e.g., recurring bills, seasonal trends)  
+   - Ensured demographic diversity (age, occupation, location) for balanced training  
+   - Limitations: Synthetic data lacks nuanced real-world edge cases (e.g., irregular high-risk spending) 
 
 ---
 
