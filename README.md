@@ -1,7 +1,5 @@
 # 🚀 Ctrl-Alt-Del
 
-![White Text](https://img.shields.io/badge/This_is_white_text-FFFFFF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000)
-
 ## 📌 Table of Contents
 - [Introduction](#introduction)
 - [Demo](#demo)
@@ -52,11 +50,14 @@ Describe the major technical or non-technical challenges your team encountered.
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: React
+- 🔹 Backend: Flask
+- 🔹 Database: SQLite
+- 🔹 Other: OpenRouter API
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+- **Manpreet Singh Ahluwalia** - [GitHub](https://github.com/Manpreet-2002) | [LinkedIn](https://www.linkedin.com/in/manpreet-singh-ahluwalia-77bbbb202/)
+- **Abhishek S** - [GitHub](https://github.com/AbhishekS8073) | [LinkedIn](https://www.linkedin.com/in/abhishek-s-a13265244 )
+- **Maharth Thakar** - [GitHub](https://github.com/maharththakar) | [LinkedIn](https://www.linkedin.com/in/maharth-thakar-b463731bb/)
+- **Fahad Nazmi** - [GitHub](#) | [LinkedIn](#)
+- **Venkata Bulusu** - [GitHub](#) | [LinkedIn](#)
