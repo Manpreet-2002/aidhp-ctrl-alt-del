@@ -1,6 +1,6 @@
 # 🚀 Ctrl-Alt-Del
 
-![White Text](https://via.placeholder.com/200x30/000000/ffffff?text=White+Text)
+![White Text](https://img.shields.io/badge/This_is_white_text-FFFFFF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000)
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
