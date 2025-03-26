@@ -76,18 +76,57 @@ We bridge this gap by decoding personal financial behaviors—**spending pattern
 ---
 
 ## 🏃 How to Run
-1. Clone the repository  
+
+### Prerequisites
+- Node.js (v18 or higher)
+- Python 3.x
+- pip (Python package manager)
+
+### Backend Setup
+1. Navigate to the backend directory:
    ```sh
-   git clone https://github.com/your-repo.git
+   cd code/src/back_end
    ```
-2. Install dependencies  
+
+2. Create and activate a virtual environment (recommended):
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
    ```
-3. Run the project  
+
+3. Install dependencies:
    ```sh
-   npm start  # or python app.py
+   pip install -r requirements.txt
    ```
+
+4. Set up environment variables:
+   - Copy `.env.example` to `.env` (if available)
+   - Configure your environment variables in `.env`
+
+5. Run the backend server:
+   ```sh
+   python app.py
+   ```
+
+### Frontend Setup
+1. Navigate to the frontend directory:
+   ```sh
+   cd code/src/front_end/project
+   ```
+
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+The application should now be running with:
+- Frontend: http://localhost:5173 (Vite's default port)
+- Backend: http://localhost:5000 (Flask's default port)
 
 ## 🏗️ Tech Stack
 - 🔹 Frontend: React
