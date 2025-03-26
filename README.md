@@ -47,7 +47,7 @@ We bridge this gap by decoding personal financial behaviors—**spending pattern
 ## 🛠️ How We Built It
 ### Frontend
 - **React** dynamic UI with interactive dashboards
-- Visualization of recommendations via charts (e.g., spending categories)
+- Custom marketing message and delivery channel, hyper-personalized based on user's interests. For example - the model chooses meme-based marketing for Gen-Z users which other users might find distasteful
 
 ### Backend
 - **Flask REST API** for data processing
@@ -56,9 +56,6 @@ We bridge this gap by decoding personal financial behaviors—**spending pattern
 ### AI/ML
 - **Open Router API** to access `deepseek-v3-0324`
 - Custom prompts mapping financial data to product features (e.g., _"Suggest cards with fuel rewards if fuel spend >20%"_) 
-
-### Database
-- **SQLite** for secure storage of user profiles and transaction histories
   
 ---
 
@@ -95,7 +92,6 @@ We bridge this gap by decoding personal financial behaviors—**spending pattern
 ## 🏗️ Tech Stack
 - 🔹 Frontend: React
 - 🔹 Backend: Flask
-- 🔹 Database: SQLite
 - 🔹 Other: OpenRouter API
 
 ## 👥 Team
